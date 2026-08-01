@@ -1,0 +1,21 @@
+\usepackage{mathpazo}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{makecell}
+%% \usepackage[a4paper,margin=2cm]{geometry}
+
+\usepackage{pdfpages}
+\usepackage{xcolor}  % For colored warning boxes
+\usepackage{pifont}  % For dingbat symbols in error boxes
+\usepackage{academicons}  % For \aiOrcid icon
+\usepackage[font=Large,labelfont=bf,textfont=bf]{caption}
+\DeclareCaptionLabelFormat{addC}{#1 C#2}
+
+%% Load hyperref after other packages to avoid conflicts
+\usepackage{hyperref}
+%% Set hyperlinks in colour to the "CODECHECK colour".
+\hypersetup{colorlinks=true, urlcolor = [rgb]{0,.5,0.2}}
+
+%% ORCID icon as clickable link using academicons
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+\newcommand\orcidicon[1]{\href{https://orcid.org/#1}{\textcolor{orcidlogocol}{\aiOrcid}}}
