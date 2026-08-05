@@ -46,7 +46,7 @@ codechecker:
 
 summary: >
  Quarto and Jupyter notebooks used to reproduce the results reported by Granell et al. (2026) and evaluate the reproducibility of the research outputs.
-repository: https://github.com/alexandertrinidad/reproducible-research-giscience-longitudinal-study
+repository: https://github.com/codecheckers/reproducible-research-giscience-longitudinal-study/tree/main
 check_time: "2026-07-17 11:50:00"
 certificate: 2026-018
 report: 
