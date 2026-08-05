@@ -1,0 +1,52 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: >
+   Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures
+  authors:
+    - name: Carlos Granell
+    - name: Frank O. Ostermann
+    - name: Daniel Nüst
+    - name: Peter Kedron
+    - name: Eftychia Koukouraki
+    - name: Miguel Matey-Sanz
+    - name: Rémy Decoupes
+    - name: Sergio Trilles
+    - name: Anita Graser
+    - name: Tom Niers
+  reference: https://doi.org/10.5311/JOSIS.2026.32.591 
+manifest:
+  - file: outputs/AGILE_pre_post.png
+    comment: manuscript Figure 1
+  - file: outputs/AGILE_sankey_year.png
+    comment: manuscript Figure 2
+  - file: outputs/figure2_table.png
+    comment: manuscript table under Figure 2 
+  - file: outputs/GIScience_pre_post.png
+    comment: manuscript Figure 3  
+  - file: outputs/table1.png
+    comment: manuscript Table 1
+  - file: outputs/table5.png
+    comment: manuscript Table 5.
+  - file: outputs/table6.png
+    comment: manuscript Table 6.
+  - file: outputs/table7_1.png
+    comment: manuscript Table 7 (first part)
+  - file: outputs/table7_2.png
+    comment: manuscript Table 7 (second part)
+
+
+
+
+
+codechecker:
+  - name: Alexander Trinidad
+    ORCID: 0000-0002-0762-5367
+
+summary: >
+ Quarto and Jupyter notebooks used to reproduce the results reported by Granell et al. (2026) and evaluate the reproducibility of the research outputs.
+repository: https://github.com/alexandertrinidad/reproducible-research-giscience-longitudinal-study
+check_time: "2026-07-17 11:50:00"
+certificate: 2026-018
+report: 
